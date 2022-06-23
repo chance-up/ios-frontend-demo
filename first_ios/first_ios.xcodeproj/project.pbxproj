@@ -17,6 +17,10 @@
 		2D00D1F32861BECE0035B071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D00D1C92861BECC0035B071 /* ContentView.swift */; };
 		2D00D1F42861BECE0035B071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D00D1CA2861BECE0035B071 /* Assets.xcassets */; };
 		2D00D1F52861BECE0035B071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D00D1CA2861BECE0035B071 /* Assets.xcassets */; };
+		2D60A5F12862E247005452B4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D60A5F02862E247005452B4 /* CircleImage.swift */; };
+		2D60A5F22862E247005452B4 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D60A5F02862E247005452B4 /* CircleImage.swift */; };
+		2D60A5F428630304005452B4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D60A5F328630304005452B4 /* MapView.swift */; };
+		2D60A5F528630304005452B4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D60A5F328630304005452B4 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		2D00D1E82861BECE0035B071 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D00D1EC2861BECE0035B071 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2D00D1EE2861BECE0035B071 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		2D60A5F02862E247005452B4 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		2D60A5F328630304005452B4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 				2D00D1C82861BECC0035B071 /* first_iosApp.swift */,
 				2D00D1C92861BECC0035B071 /* ContentView.swift */,
 				2D00D1CA2861BECE0035B071 /* Assets.xcassets */,
+				2D60A5F02862E247005452B4 /* CircleImage.swift */,
+				2D60A5F328630304005452B4 /* MapView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -300,7 +308,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D00D1F22861BECE0035B071 /* ContentView.swift in Sources */,
+				2D60A5F428630304005452B4 /* MapView.swift in Sources */,
 				2D00D1F02861BECE0035B071 /* first_iosApp.swift in Sources */,
+				2D60A5F12862E247005452B4 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +319,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D00D1F32861BECE0035B071 /* ContentView.swift in Sources */,
+				2D60A5F528630304005452B4 /* MapView.swift in Sources */,
 				2D00D1F12861BECE0035B071 /* first_iosApp.swift in Sources */,
+				2D60A5F22862E247005452B4 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

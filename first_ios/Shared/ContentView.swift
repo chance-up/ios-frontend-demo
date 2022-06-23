@@ -32,6 +32,8 @@ struct ContentView: View {
                 ProgressView(value: 5, total: 15)
                 HStack {
                     Text("Seconds Elapsed")
+                    Label("300", systemImage: "hourglass.bottomhalf.fill")
+
                 }
             }
             .padding()

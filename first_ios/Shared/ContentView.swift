@@ -28,6 +28,11 @@ struct ContentView: View {
                 Text("Chance-up")
                     .font(.subheadline)
                     .foregroundColor(.brown)
+                
+                ProgressView(value: 5, total: 15)
+                HStack {
+                    Text("Seconds Elapsed")
+                }
             }
             .padding()
         }
